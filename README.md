@@ -1,5 +1,3 @@
-# Universal_Guessing-
-Universal Guessing with Side Information for Binary Sequence Estimation
 # Universal Guessing with Side Information for Binary Sequence Estimation
 
 ## Authors
@@ -10,24 +8,24 @@ Universal Guessing with Side Information for Binary Sequence Estimation
 ---
 
 ## Abstract
-This project showcases advanced algorithmic techniques for binary sequence estimation using universal guessing methods with side information. We explored and implemented three innovative variants of Lempel-Ziv (LZ) compression-based algorithms, enhancing the foundational universal guessing algorithm by A. Cohen and N. Merhav. The project focused on:
+This project explores advanced algorithmic techniques for binary sequence estimation using universal guessing methods with side information. Three innovative variants of Lempel-Ziv (LZ) compression-based algorithms were implemented, enhancing the foundational universal guessing algorithm by A. Cohen and N. Merhav. The project focused on:
 
 1. **Baseline Estimation**: Using side information for sequence guessing.
 2. **Enhanced Estimation**: Leveraging known prefixes for improved accuracy.
 3. **Advanced Optimization**: Combining learned patterns with LZ decoding for robust performance.
 
-Through detailed evaluation, we demonstrated the practical utility of these techniques in areas such as binary image reconstruction, offering significant improvements in denoising under challenging noise conditions.
+Detailed evaluation demonstrated the practical utility of these techniques in areas such as binary image reconstruction, offering significant improvements in denoising under challenging noise conditions.
 
 ---
 
 ## Introduction
-The challenge of estimating unknown sequences from noisy observations is a cornerstone problem in information theory, communication systems, and cryptography. As an engineer, I tackled this problem by:
+Estimating unknown sequences from noisy observations is a cornerstone problem in information theory, communication systems, and cryptography. This project addresses this challenge by:
 
 - Implementing and analyzing Lempel-Ziv compression algorithms.
 - Innovating on universal guessing algorithms by incorporating side information and partial sequence knowledge.
-- Designing practical solutions that bridge theoretical algorithms with real-world applications, such as image reconstruction and denoising.
+- Designing solutions that bridge theoretical algorithms with real-world applications, such as image reconstruction and denoising.
 
-The project reflects my ability to merge foundational theory with engineering rigor to develop scalable and adaptive solutions.
+The project highlights the integration of foundational theory with engineering rigor to develop scalable and adaptive solutions.
 
 ---
 
@@ -36,36 +34,36 @@ The project reflects my ability to merge foundational theory with engineering ri
 ### 1. Lempel-Ziv Compression
 
 #### Standard LZ Compression
-- **Encoding**: Efficiently parsed input sequences into unique phrases using dynamic dictionaries.
-- **Decoding**: Reconstructed the original sequence from compressed data with high fidelity.
+- **Encoding**: Parses input sequences into unique phrases using dynamic dictionaries.
+- **Decoding**: Reconstructs the original sequence from compressed data with high fidelity.
 
 #### LZ Compression with Side Information
-- Enhanced standard LZ compression by leveraging correlated side information, reducing entropy and improving compression rates.
+- Enhances standard LZ compression by leveraging correlated side information, reducing entropy and improving compression rates.
 
 ### 2. Universal Guessing Algorithms
-As part of the project, I engineered three distinct algorithms:
+Three distinct algorithms were developed:
 
 - **A1: Baseline Approach**
-  Utilized side information to guess sequences without prior training.
+  Utilizes side information to guess sequences without prior training.
 
 - **A2: Learning from Prefixes**
-  Integrated a known prefix of the sequence to adaptively improve guessing accuracy.
+  Integrates a known prefix of the sequence to adaptively improve guessing accuracy.
 
 - **A3: Advanced Pattern Matching**
-  Used observed patterns from prefixes to inform guesses without modifying existing dictionaries, ensuring robustness against noise.
+  Uses observed patterns from prefixes to inform guesses without modifying existing dictionaries, ensuring robustness against noise.
 
 ---
 
 ## Results
 
 ### Compression Rate Analysis
-Compression rates were thoroughly analyzed for:
+Compression rates were analyzed for:
 1. Independent and identically distributed (i.i.d.) sequences.
 2. First-order and second-order Markov chains.
 
-#### Key Achievements:
-- Achieved convergence of compression rates to theoretical entropy limits.
-- Demonstrated that incorporating side information significantly improves compression efficiency.
+#### Key Findings:
+- Compression rates converge to theoretical entropy limits.
+- Incorporating side information significantly improves compression efficiency.
 
 ### Algorithm Performance
 The algorithms were tested under diverse conditions, including:
@@ -107,7 +105,7 @@ This work can be adapted to:
 ---
 
 ## Conclusion
-This project illustrates the power of universal guessing algorithms in addressing complex estimation problems. My key contributions include:
+This project demonstrates the effectiveness of universal guessing algorithms in addressing complex estimation problems. Key contributions include:
 - **Innovative Algorithm Design**: Developing and extending Lempel-Ziv-based methods to integrate side information and prefixes.
 - **Practical Impact**: Demonstrating the applicability of these techniques in binary image reconstruction and noise handling.
 - **Engineering Rigor**: Translating theoretical constructs into efficient, implementable solutions.
