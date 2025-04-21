@@ -102,23 +102,4 @@ This work can be adapted to:
 - Enhancing storage efficiency in data compression tasks.
 - Denoising and restoration in medical imaging and other critical applications.
 
----
 
-## Conclusion
-This project demonstrates the effectiveness of universal guessing algorithms in addressing complex estimation problems. Key contributions include:
-- **Innovative Algorithm Design**: Developing and extending Lempel-Ziv-based methods to integrate side information and prefixes.
-- **Practical Impact**: Demonstrating the applicability of these techniques in binary image reconstruction and noise handling.
-- **Engineering Rigor**: Translating theoretical constructs into efficient, implementable solutions.
-
-### Future Directions
-- Developing hybrid algorithms that combine the strengths of A2 and A3.
-- Extending the methods to sequences with larger alphabets and higher dimensional data.
-- Investigating real-time applications in communication and data storage systems.
-
----
-
-## References
-1. N. Merhav and A. Cohen, "Universal randomized guessing with application to asynchronous decentralized brute-force attacks," *IEEE Transactions on Information Theory*, vol. 66, no. 4, pp. 2651–2671, 2020.
-2. J. Ziv and A. Lempel, "Compression of individual sequences via variable-rate coding," *IEEE Transactions on Information Theory*, vol. 24, no. 5, pp. 530–536, 1978.
-3. T. M. Cover and J. A. Thomas, *Elements of Information Theory*. Wiley-Interscience, 2nd ed., 2006.
-4. T. Uyematsu and S. Kuzuoka, "Conditional lempel-ziv complexity and its application to source coding theorem with side information," *IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences*, vol. E86-A, no. 10, pp. 2615–2617, 2003.
